@@ -63,7 +63,9 @@ p {
 	font-size:14px;
 	font-family: 'Poppins', sans-serif;
 }
+
 img{border:none;max-width:100%; height:auto;}
+
 ul{
 	padding: 0;
     margin: 0 auto;
@@ -89,6 +91,9 @@ html,body{
   opacity: 0;
 }
 
+.bold {
+			font-weight:bold;
+		}
 .fix{position: relative;clear: both;}
 /*=============Style css=========*/
 
@@ -108,7 +113,7 @@ nav.navbar.bootsnav.no-background {
 nav.navbar.bootsnav {
     background-color: #fff;
     border-bottom: transparent;
-    box-shadow: 0 3px 15px rgba(0,0,0,.2);
+    box-shadow: 0 3px 15px rgba(0,0,0,10);
 }
 
 /*.navbar-brand*/
@@ -278,7 +283,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .single-about-img img {
     max-width: 500px;
-    height: 468px;
+    height: 400px;
 }
 .about-list-icon{
     display: flex;
@@ -514,14 +519,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         8. Profiles
 --------------------------------------*/
-.profiles {
+.projects {
     padding:  50px 0 100px;
-    border:  1px solid #e5ebf2;
+    /* border:  1px solid #e5ebf2; */
 }
 
-.profiles-content {padding-top: 100px;}
-.profiles-content .col-sm-3{padding:0;}
-.profile-txt {
+.projects-content {padding-top: 100px;}
+.projects-content .col-sm-3{padding:0;}
+.project-txt {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -685,7 +690,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 --------------------------------------*/
 .contact {
     background: #f9fbfd;
-    padding: 50px 0 100px;
+    padding: 700px 0 100px;
 }
 .single-contact-box {padding-top: 100px;}
 .contact-form  .form-group {
@@ -775,6 +780,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 /*.contact-add-info */
 
+
+.awards {
+    background: #f9fbfd;
+    padding: 800px 0 100px;
+}
 /*hm-foot-icon*/
 .hm-foot-icon {
 
