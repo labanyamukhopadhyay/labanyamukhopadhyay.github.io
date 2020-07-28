@@ -1,0 +1,105 @@
+html {
+  color: #171717;
+  background-color: #f2f2f2;
+}
+
+body {
+  font-size: 1.1em;
+  font-family: georgia, serif;
+  line-height: 1.4em;
+  max-width: 37.5em;
+  margin: 2em 2em 2em 20%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  padding-bottom: 3em;
+  flex: 1;
+}
+
+footer {
+  font-size: 0.75em;
+  height: 1em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+#profile_pic {
+  border-radius: 50%;
+  max-height: 100%;
+  max-width: 100%;
+  width: 10em;
+  margin: 0 2em;
+  display: inline;
+}
+
+@media screen and (max-width: 70em) {
+  body {
+    margin: 2em;
+  }
+}
+@media screen and (max-width: 550px) {
+  #rofile_pic {
+    display: block;
+  }
+}
+
+
+h1, h2 {
+  font-size: 2em;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+  color: #414040
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+    color: #ffb0b0;
+}
+/* 
+p> a {
+  background-image: linear-gradient(#ffb0b0, #ffb0b0);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 15%;
+  transition: background-size 100ms ease-in-out;
+}
+p> a:hover, a:focus {
+  background-size: 100% 100%;
+  transition: background-size 100ms ease-in-out;
+} */
+
+/* nav {
+    position: fixed;
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  padding-right: 1em;
+  padding-top: 0.5em;
+}
+
+
+mark.pink {
+  color: #ffb0b0;
+  background: none;
+}
+
